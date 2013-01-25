@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="game_over">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="main">false</item>
+    <item type="id" name="boardWrapper">false</item>
+    <item type="id" name="board">false</item>
+    <item type="id" name="line">false</item>
+    <item type="id" name="scores">false</item>
+    <item type="id" name="scoreX">false</item>
+    <item type="id" name="scoreO">false</item>
+    <item type="id" name="onePlayer">false</item>
+    <item type="id" name="twoPlayer">false</item>
+    <item type="id" name="toggleSound">false</item>
+    <item type="id" name="chooseDifficulty">false</item>
+</resources>

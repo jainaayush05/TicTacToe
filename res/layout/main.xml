@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/blackboard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/titlettt" android:layout_gravity="center" android:layout_width="match_parent"></ImageView>
+    
+    <Button android:textSize="30.0sp" android:textStyle="bold" android:id="@+id/continue_button" android:background="@drawable/continue1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onePlayer" />
+    <Button android:textSize="30.0sp" android:textStyle="bold" android:id="@+id/new_game_button" android:background="@drawable/newgame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="twoPlayer" />
+    <Button android:textSize="30.0sp" android:textStyle="bold" android:id="@+id/options_button" android:background="@drawable/options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onePlayer" />
+    <Button android:textSize="30.0sp" android:textStyle="bold" android:id="@+id/about_button" android:background="@drawable/about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="twoPlayer" />
+    
+</LinearLayout>

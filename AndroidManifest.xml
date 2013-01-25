@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.aayush.yash" android:versionName="1.1" android:versionCode="1">
+	<application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+		
+		
+		<activity android:name=".activities.SplashScreen" 
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+		</activity>
+		<activity android:name=".activities.SplashScreen2" 
+			android:label="@string/app_name">
+			
+			
+		</activity>
+		<activity android:name=".activities.TicTacToe" 
+			android:label="@string/app_name">
+			
+			
+		</activity>
+		<activity android:name=".activities.Reset" 
+			android:label="@string/app_name">
+			
+			
+		</activity>
+
+		<activity android:name=".activities.About"
+			android:label="@string/about_title" 
+			android:theme="@android:style/Theme.Dialog">
+		</activity>
+
+		<activity android:name=".activities.Options"
+			android:label="@string/options_label">
+		</activity>
+
+		<activity android:name="com.aayush.yash.activities.Game"
+			android:label="@string/app_name"
+			android:screenOrientation="portrait">
+		</activity>
+
+	</application>
+	<uses-sdk android:minSdkVersion="4" />
+</manifest> 

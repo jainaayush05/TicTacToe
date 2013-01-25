@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_lock_silent_mode_off" android:id="@id/toggleSound" android:title="@string/turn_sound_off" />
+    <item android:icon="@drawable/ic_menu_sort_by_size" android:id="@id/chooseDifficulty" android:title="@string/choose_difficulty" />
+</menu>

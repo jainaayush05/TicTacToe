@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TicTacToe</string>
+	<string name="main_title">Tic Tac Toe</string>
+	<string name="continue_label">Continue</string>
+	<string name="new_game_label">New Game</string>
+	
+	<string name="options_label">Options</string>
+	<string name="easy_label">Easy</string>
+	<string name="medium_label">Medium</string>
+	<string name="hard_label">Hard</string>
+	
+	<string name="message_title">Message</string>
+	<string name="question_title">Question</string>
+	
+	<string name="draw_game">Draw!</string>
+	<string name="nought_win_game">You Lose!</string>
+	<string name="cross_win_game">You Win!</string>
+	<string name="restart_game">Restart Game?</string>
+
+    <string name="one_player">One Player</string>
+    <string name="two_player">Two Player</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="x_wins">X Wins</string>
+    <string name="o_wins">O Wins</string>
+    <string name="cat_wins">Cat Wins</string>
+    <string name="play_again">Play Again</string>
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="turn_sound_off">Mute</string>
+    <string name="turn_sound_on">Unmute</string>
+
+	
+	<string name="about_label">About</string>
+	<string name="about_title">About Tic Tac Toe</string>
+	<string name="about_text">This Game is created by <b>Aayush  Jain</b> and<b>Yashvardhan Srivastava</b> as a part of their submission for Google Developer contest - DesignoMania
+	</string>
+
+</resources>

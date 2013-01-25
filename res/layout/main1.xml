@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/blackboard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="80.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" />
+    <Button android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/buttonhighlight" android:id="@+id/continue_button" android:background="@drawable/blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Continue" android:onClick="onePlayer" />
+    <Button android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/buttonhighlight" android:id="@+id/new_game_button" android:background="@drawable/blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="New Game" android:onClick="twoPlayer" />
+    <Button android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/buttonhighlight" android:id="@+id/options_button" android:background="@drawable/blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Options" android:onClick="onePlayer" />
+    <Button android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/buttonhighlight" android:id="@+id/about_button" android:background="@drawable/blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="About" android:onClick="twoPlayer" />
+    
+</LinearLayout>

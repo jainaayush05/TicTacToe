@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  android:orientation="vertical" android:id="@id/main" android:background="@drawable/blackboard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <RelativeLayout  android:id="@id/boardWrapper" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableLayout android:id="@+id/board" android:layout_weight="3" android:background="@drawable/board" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow android:id="@+id/row1" >
+                <Button android:background="@drawable/blank" android:id="@+id/button_11" />
+                <Button android:tag="1" android:background="@drawable/blank" android:id="@+id/button_12"/>
+                <Button android:tag="2" android:background="@drawable/blank" android:id="@+id/button_13"/>
+            </TableRow>
+            <TableRow android:id="@+id/row2" >
+                <Button android:tag="3" android:background="@drawable/blank" android:id="@+id/button_21" />
+                <Button android:tag="4" android:background="@drawable/blank" android:id="@+id/button_22"/>
+                <Button android:tag="5" android:background="@drawable/blank" android:id="@+id/button_23"/>
+            </TableRow>
+            <TableRow android:id="@+id/row3" >
+                <Button android:tag="6" android:background="@drawable/blank" android:id="@+id/button_31"/>
+                <Button android:tag="7" android:background="@drawable/blank" android:id="@+id/button_32"/>
+                <Button android:tag="8" android:background="@drawable/blank" android:id="@+id/button_33"/>
+            </TableRow>
+        </TableLayout>
+        <ImageView android:id="@id/line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TableLayout android:id="@+id/buttons" android:layout_weight="1" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="*" android:layout_below="@id/board"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow>
+                <TextView android:textColor="#FFA115" android:id="@+id/human_score" android:textSize="60.0sp" android:gravity="center_horizontal"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+                
+                <TextView android:textColor="#76A4FF" android:id="@+id/droid_score" android:textSize="60.0sp" android:gravity="center_horizontal"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+                
+            </TableRow>
+            <TextView android:textColor="#32CD32"  android:textColorHighlight="#7FFF00" android:id="@+id/reset" android:textSize="60.0sp" android:gravity="center_horizontal"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Reset" />
+        </TableLayout>
+        
+        
+        
+    </RelativeLayout>
+</RelativeLayout>
